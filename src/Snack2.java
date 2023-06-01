@@ -7,13 +7,15 @@ public class Snack2 {
         String[] name = {"Luca", "Mattia", "Fabio", "Alessandro", "Giorgio", "Francesco", "Mauro"};
         String[] lastname = {"Rossi","Verdi","Bianchi","Neri","Gialli","Viola","Arancioni"};
 
-        Random random = new Random();
+        Random random1 = new Random();
+        Random random2 = new Random();
 
         for (int i = 0; i < name.length; i++) {
 
-            int number = random.nextInt(7);
+            int number1 = random1.nextInt(7);
+            int number2 = random2.nextInt(7);
 
-            System.out.println(name[number] + " " + lastname[number]);
+            System.out.println(name[number1] + " " + lastname[number2]);
 
         }
 
